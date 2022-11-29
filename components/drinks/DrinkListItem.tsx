@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
-export default function KitchenList({
+export default function DrinkListItem({
     status, orders
 }: {
-    status: number, orders: any[]
+    status: number, orders: []
 }) {
 
     const [bgColor, setBgColor] = useState('')
